@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(198, 207, 255);
 }
 
 .App-header {
@@ -17,29 +18,51 @@
   color: #61dafb;
 }
 
-.blue-text{
-  color: #021b50;
-}
-#purple-background{
-  background-color: #bca0dc;
+.nav-text { 
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Source Serif Pro', serif;
 }
 
-li{
+p{
+  font-family: 'Source Serif Pro', serif;
   padding: 10px;
 }
 
-body{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #ad6eff81;
+img{
+  margin-top: 10px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+div.image {
+  margin: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
   padding: 10px;
+  border: 3px solid rgb(230, 230, 230);
+  background-color: rgb(181, 193, 255);
+  transition: transform 1s;
+}
+
+div.image:hover {
+  transform: scale(1.15);
+}
+
+div.imageGallery {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 div.gallery {
- margin: 5px;
- border: 3px solid rgb(231, 231, 231);
+ margin: 10px;
+ border: 3px solid rgb(230, 230, 230);
  float: left;
  width: 180px;
- padding: 20px;
+ padding: 30px;
 }
   
 div.gallery:hover {
