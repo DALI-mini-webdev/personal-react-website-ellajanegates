@@ -22,7 +22,6 @@
   box-sizing: border-box;
   margin:0;
   padding:0;
-  font-family: 'Source Serif Pro', serif;
 }
 
 p{
@@ -32,7 +31,7 @@ p{
 
 img{
   margin-top: 10px;
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid rgb(64, 85, 163);
 }
 
 div.image {

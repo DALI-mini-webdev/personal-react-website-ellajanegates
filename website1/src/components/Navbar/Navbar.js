@@ -20,7 +20,7 @@ class Navbar extends React.Component {
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) =>{
                         return(
-                            <li key = {index}>
+                            <li key = {index} className={item.className} onClick = {() => {this.props.changeCurrPage(item.title)}}>
                                 <a className={item.className} href={item.url}>
                                 {item.title}
                                 </a>
@@ -28,7 +28,7 @@ class Navbar extends React.Component {
                         )
                     })}
                 </ul>
-                <Button>Say Hello</Button>
+                <Button onClick={() => alert("hi!")}>Say Hello</Button>
             </nav>
         )
     }

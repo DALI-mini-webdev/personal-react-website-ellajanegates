@@ -2,27 +2,27 @@ export const MenuItems = [
     {
         title: 'Home',
         url: '#',
-        cName: 'nav-links',
+        className: 'nav-links',
     },
     {
         title: 'About Me',
         url: '#',
-        cName: 'nav-links',
+        className: 'nav-links',
     },
     {
-        title: 'Photos',
-        url: '#',
-        cName: 'nav-links',
+        title: 'GitHub',
+        url: 'https://github.com/ellajanegates',
+        className: 'nav-links',
     },
     {
         title: 'Contact',
         url: '#',
-        cName: 'nav-links',
+        className: 'nav-links',
     },
     {
         title: 'Language',
         url: '#',
-        cName: 'nav-links-mobile',
+        className: 'nav-links-mobile',
     },
     
 ]

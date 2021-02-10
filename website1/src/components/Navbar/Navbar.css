@@ -37,13 +37,13 @@
 }
 
 .nav-links {
-    color: white;
+    color: rgb(255, 255, 255); 
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-    background-color: #b3b8ff;
+    background-color: rgb(64, 85, 163);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
