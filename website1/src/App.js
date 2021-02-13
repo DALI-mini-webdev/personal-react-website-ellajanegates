@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from "./components/Navbar/Navbar";
 import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
+import FoxPic from "./components/CatFact";
+import nyc from "./images/mike-c-valdivia-kZokA2VTKn4-unsplash.jpg";
 
 class App extends Component{
   constructor(props){
@@ -24,6 +26,14 @@ class App extends Component{
       return <Contact/>
     } else if(this.state.currPage === "About Me") {
       return <About/>
+    } else if(this.state.currPage === "Fox Picture") {
+      return <FoxPic/>
+    } else {
+      return (
+        <div>
+          <img className="backgroundIMG" src={nyc} alt=""/>
+        </div>
+      );
     }
   }
   

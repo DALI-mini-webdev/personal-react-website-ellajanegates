@@ -1,10 +1,5 @@
 export const MenuItems = [
     {
-        title: 'Home',
-        url: '#',
-        className: 'nav-links',
-    },
-    {
         title: 'About Me',
         url: '#',
         className: 'nav-links',
@@ -16,6 +11,11 @@ export const MenuItems = [
     },
     {
         title: 'Contact',
+        url: '#',
+        className: 'nav-links',
+    },
+    {
+        title: 'Fox Picture',
         url: '#',
         className: 'nav-links',
     },

@@ -34,6 +34,12 @@ img{
   border: 3px solid rgb(64, 85, 163);
 }
 
+img.fox{
+  size: 100%;
+  padding: 10px;
+  border: none;
+}
+
 div.image {
   margin: 20px;
   margin-left: 30%;
@@ -46,6 +52,15 @@ div.image {
 
 div.image:hover {
   transform: scale(1.15);
+}
+
+img.backgroundIMG {
+  margin-top: none;
+  margin: 0px;
+  padding: none;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
 }
 
 div.imageGallery {
@@ -76,4 +91,9 @@ div.gallery img {
 div.desc {
  padding: 10px;
  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
 }
