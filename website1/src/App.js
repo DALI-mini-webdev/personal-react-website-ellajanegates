@@ -5,6 +5,7 @@ import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
 import FoxPic from "./components/CatFact";
 import nyc from "./images/mike-c-valdivia-kZokA2VTKn4-unsplash.jpg";
+import firebase from './firebase/index.js'
 
 class App extends Component{
   constructor(props){
@@ -47,6 +48,8 @@ class App extends Component{
   }
   
   render() {
+    console.log(firebase);
+    console.log(firebase.db);
     return (
       <div className="App">
         <Navbar changeCurrPage = {this.changeCurrPage}/>
