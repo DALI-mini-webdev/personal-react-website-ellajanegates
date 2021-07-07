@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  background-color: rgb(198, 207, 255);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav-text { 
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+p{
+  font-family: 'Source Serif Pro', serif;
+  padding: 10px;
+}
+
+img{
+  margin-top: 10px;
+  border: 3px solid rgb(64, 85, 163);
+}
+
+img.fox{
+  size: 100%;
+  padding: 10px;
+  border: none;
+}
+
+div.image {
+  margin: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 10px;
+  border: 3px solid rgb(230, 230, 230);
+  background-color: rgb(181, 193, 255);
+  transition: transform 1s;
+}
+
+div.image:hover {
+  transform: scale(1.15);
+}
+
+img.backgroundIMG {
+  margin-top: none;
+  margin: 0px;
+  padding: none;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+}
+
+div.imageGallery {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.gallery {
+ margin: 10px;
+ border: 3px solid rgb(230, 230, 230);
+ float: left;
+ width: 180px;
+ padding: 30px;
+}
+  
+div.gallery:hover {
+ border: 1px solid #777;
+}
+  
+div.gallery img {
+ width: 100%;
+ height: auto;
+}
+  
+div.desc {
+ padding: 10px;
+ text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+}
